@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE44BDD8D90EB7D001B044B2 /* libPods-AFNetWorking封装.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC8DBEA6316315322664FE /* libPods-AFNetWorking封装.a */; };
+		F13AFC6920BF899A00CC46CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC6820BF899A00CC46CA /* AppDelegate.m */; };
+		F13AFC6C20BF899A00CC46CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC6B20BF899A00CC46CA /* ViewController.m */; };
+		F13AFC6F20BF899A00CC46CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13AFC6D20BF899A00CC46CA /* Main.storyboard */; };
+		F13AFC7120BF899C00CC46CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13AFC7020BF899C00CC46CA /* Assets.xcassets */; };
+		F13AFC7420BF899C00CC46CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13AFC7220BF899C00CC46CA /* LaunchScreen.storyboard */; };
+		F13AFC7720BF899C00CC46CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC7620BF899C00CC46CA /* main.m */; };
+		F13AFC8120BF899C00CC46CA /* AFNetWorking__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC8020BF899C00CC46CA /* AFNetWorking__Tests.m */; };
+		F13AFC8C20BF899C00CC46CA /* AFNetWorking__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC8B20BF899C00CC46CA /* AFNetWorking__UITests.m */; };
+		F13AFC9E20BF8D3500CC46CA /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFC9D20BF8D3500CC46CA /* NetWork.m */; };
+		F13AFCA120BFE12000CC46CA /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AFCA020BFE12000CC46CA /* BaseView.m */; };
+		F13AFCA320BFE13700CC46CA /* BaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13AFCA220BFE13700CC46CA /* BaseView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13AFC7D20BF899C00CC46CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13AFC5C20BF899A00CC46CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13AFC6320BF899A00CC46CA;
+			remoteInfo = "AFNetWorking封装";
+		};
+		F13AFC8820BF899C00CC46CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13AFC5C20BF899A00CC46CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13AFC6320BF899A00CC46CA;
+			remoteInfo = "AFNetWorking封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BDC8DBEA6316315322664FE /* libPods-AFNetWorking封装.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetWorking封装.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5C3942E90765C4735678E8 /* Pods-AFNetWorking封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking封装.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetWorking封装/Pods-AFNetWorking封装.release.xcconfig"; sourceTree = "<group>"; };
+		C6E67778ACFB7AA3037529C4 /* Pods-AFNetWorking封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking封装.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetWorking封装/Pods-AFNetWorking封装.debug.xcconfig"; sourceTree = "<group>"; };
+		F13AFC6420BF899A00CC46CA /* AFNetWorking封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetWorking封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13AFC6720BF899A00CC46CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13AFC6820BF899A00CC46CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13AFC6A20BF899A00CC46CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13AFC6B20BF899A00CC46CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13AFC6E20BF899A00CC46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13AFC7020BF899C00CC46CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13AFC7320BF899C00CC46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13AFC7520BF899C00CC46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13AFC7620BF899C00CC46CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13AFC7C20BF899C00CC46CA /* AFNetWorking封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetWorking封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13AFC8020BF899C00CC46CA /* AFNetWorking__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorking__Tests.m; sourceTree = "<group>"; };
+		F13AFC8220BF899C00CC46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13AFC8720BF899C00CC46CA /* AFNetWorking封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetWorking封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13AFC8B20BF899C00CC46CA /* AFNetWorking__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorking__UITests.m; sourceTree = "<group>"; };
+		F13AFC8D20BF899C00CC46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13AFC9A20BF8BBD00CC46CA /* InterfaceAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceAddress.h; sourceTree = "<group>"; };
+		F13AFC9B20BF8C0000CC46CA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F13AFC9C20BF8D3500CC46CA /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		F13AFC9D20BF8D3500CC46CA /* NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		F13AFC9F20BFE12000CC46CA /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		F13AFCA020BFE12000CC46CA /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		F13AFCA220BFE13700CC46CA /* BaseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseView.xib; sourceTree = "<group>"; };
+		F13AFCA420BFECDD00CC46CA /* BlockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13AFC6120BF899A00CC46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE44BDD8D90EB7D001B044B2 /* libPods-AFNetWorking封装.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC7920BF899C00CC46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC8420BF899C00CC46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73278A26557971CD4AC56B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDC8DBEA6316315322664FE /* libPods-AFNetWorking封装.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DBD81D120869BFCB90C0D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E67778ACFB7AA3037529C4 /* Pods-AFNetWorking封装.debug.xcconfig */,
+				8B5C3942E90765C4735678E8 /* Pods-AFNetWorking封装.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F13AFC5B20BF899A00CC46CA = {
+			isa = PBXGroup;
+			children = (
+				F13AFC6620BF899A00CC46CA /* AFNetWorking封装 */,
+				F13AFC7F20BF899C00CC46CA /* AFNetWorking封装Tests */,
+				F13AFC8A20BF899C00CC46CA /* AFNetWorking封装UITests */,
+				F13AFC6520BF899A00CC46CA /* Products */,
+				B7DBD81D120869BFCB90C0D3 /* Pods */,
+				73278A26557971CD4AC56B14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13AFC6520BF899A00CC46CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13AFC6420BF899A00CC46CA /* AFNetWorking封装.app */,
+				F13AFC7C20BF899C00CC46CA /* AFNetWorking封装Tests.xctest */,
+				F13AFC8720BF899C00CC46CA /* AFNetWorking封装UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13AFC6620BF899A00CC46CA /* AFNetWorking封装 */ = {
+			isa = PBXGroup;
+			children = (
+				F13AFC6720BF899A00CC46CA /* AppDelegate.h */,
+				F13AFC6820BF899A00CC46CA /* AppDelegate.m */,
+				F13AFC6A20BF899A00CC46CA /* ViewController.h */,
+				F13AFC6B20BF899A00CC46CA /* ViewController.m */,
+				F13AFC9F20BFE12000CC46CA /* BaseView.h */,
+				F13AFCA020BFE12000CC46CA /* BaseView.m */,
+				F13AFCA220BFE13700CC46CA /* BaseView.xib */,
+				F13AFC9920BF8BA900CC46CA /* Common */,
+				F13AFC6D20BF899A00CC46CA /* Main.storyboard */,
+				F13AFC7020BF899C00CC46CA /* Assets.xcassets */,
+				F13AFC7220BF899C00CC46CA /* LaunchScreen.storyboard */,
+				F13AFC7520BF899C00CC46CA /* Info.plist */,
+				F13AFC7620BF899C00CC46CA /* main.m */,
+			);
+			path = "AFNetWorking封装";
+			sourceTree = "<group>";
+		};
+		F13AFC7F20BF899C00CC46CA /* AFNetWorking封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F13AFC8020BF899C00CC46CA /* AFNetWorking__Tests.m */,
+				F13AFC8220BF899C00CC46CA /* Info.plist */,
+			);
+			path = "AFNetWorking封装Tests";
+			sourceTree = "<group>";
+		};
+		F13AFC8A20BF899C00CC46CA /* AFNetWorking封装UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13AFC8B20BF899C00CC46CA /* AFNetWorking__UITests.m */,
+				F13AFC8D20BF899C00CC46CA /* Info.plist */,
+			);
+			path = "AFNetWorking封装UITests";
+			sourceTree = "<group>";
+		};
+		F13AFC9920BF8BA900CC46CA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F13AFC9A20BF8BBD00CC46CA /* InterfaceAddress.h */,
+				F13AFC9B20BF8C0000CC46CA /* PrefixHeader.pch */,
+				F13AFCA420BFECDD00CC46CA /* BlockHeader.h */,
+				F13AFC9C20BF8D3500CC46CA /* NetWork.h */,
+				F13AFC9D20BF8D3500CC46CA /* NetWork.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13AFC6320BF899A00CC46CA /* AFNetWorking封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13AFC9020BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装" */;
+			buildPhases = (
+				B95302352A8C80F6D5B4564E /* [CP] Check Pods Manifest.lock */,
+				F13AFC6020BF899A00CC46CA /* Sources */,
+				F13AFC6120BF899A00CC46CA /* Frameworks */,
+				F13AFC6220BF899A00CC46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFNetWorking封装";
+			productName = "AFNetWorking封装";
+			productReference = F13AFC6420BF899A00CC46CA /* AFNetWorking封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13AFC7B20BF899C00CC46CA /* AFNetWorking封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13AFC9320BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装Tests" */;
+			buildPhases = (
+				F13AFC7820BF899C00CC46CA /* Sources */,
+				F13AFC7920BF899C00CC46CA /* Frameworks */,
+				F13AFC7A20BF899C00CC46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13AFC7E20BF899C00CC46CA /* PBXTargetDependency */,
+			);
+			name = "AFNetWorking封装Tests";
+			productName = "AFNetWorking封装Tests";
+			productReference = F13AFC7C20BF899C00CC46CA /* AFNetWorking封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13AFC8620BF899C00CC46CA /* AFNetWorking封装UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13AFC9620BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装UITests" */;
+			buildPhases = (
+				F13AFC8320BF899C00CC46CA /* Sources */,
+				F13AFC8420BF899C00CC46CA /* Frameworks */,
+				F13AFC8520BF899C00CC46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13AFC8920BF899C00CC46CA /* PBXTargetDependency */,
+			);
+			name = "AFNetWorking封装UITests";
+			productName = "AFNetWorking封装UITests";
+			productReference = F13AFC8720BF899C00CC46CA /* AFNetWorking封装UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13AFC5C20BF899A00CC46CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JingBei;
+				TargetAttributes = {
+					F13AFC6320BF899A00CC46CA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F13AFC7B20BF899C00CC46CA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F13AFC6320BF899A00CC46CA;
+					};
+					F13AFC8620BF899C00CC46CA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F13AFC6320BF899A00CC46CA;
+					};
+				};
+			};
+			buildConfigurationList = F13AFC5F20BF899A00CC46CA /* Build configuration list for PBXProject "AFNetWorking封装" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13AFC5B20BF899A00CC46CA;
+			productRefGroup = F13AFC6520BF899A00CC46CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13AFC6320BF899A00CC46CA /* AFNetWorking封装 */,
+				F13AFC7B20BF899C00CC46CA /* AFNetWorking封装Tests */,
+				F13AFC8620BF899C00CC46CA /* AFNetWorking封装UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13AFC6220BF899A00CC46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13AFC7420BF899C00CC46CA /* LaunchScreen.storyboard in Resources */,
+				F13AFC7120BF899C00CC46CA /* Assets.xcassets in Resources */,
+				F13AFC6F20BF899A00CC46CA /* Main.storyboard in Resources */,
+				F13AFCA320BFE13700CC46CA /* BaseView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC7A20BF899C00CC46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC8520BF899C00CC46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B95302352A8C80F6D5B4564E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetWorking封装-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13AFC6020BF899A00CC46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13AFC6C20BF899A00CC46CA /* ViewController.m in Sources */,
+				F13AFC7720BF899C00CC46CA /* main.m in Sources */,
+				F13AFCA120BFE12000CC46CA /* BaseView.m in Sources */,
+				F13AFC9E20BF8D3500CC46CA /* NetWork.m in Sources */,
+				F13AFC6920BF899A00CC46CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC7820BF899C00CC46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13AFC8120BF899C00CC46CA /* AFNetWorking__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13AFC8320BF899C00CC46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13AFC8C20BF899C00CC46CA /* AFNetWorking__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13AFC7E20BF899C00CC46CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13AFC6320BF899A00CC46CA /* AFNetWorking封装 */;
+			targetProxy = F13AFC7D20BF899C00CC46CA /* PBXContainerItemProxy */;
+		};
+		F13AFC8920BF899C00CC46CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13AFC6320BF899A00CC46CA /* AFNetWorking封装 */;
+			targetProxy = F13AFC8820BF899C00CC46CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13AFC6D20BF899A00CC46CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13AFC6E20BF899A00CC46CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13AFC7220BF899C00CC46CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13AFC7320BF899C00CC46CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13AFC8E20BF899C00CC46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13AFC8F20BF899C00CC46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13AFC9120BF899C00CC46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E67778ACFB7AA3037529C4 /* Pods-AFNetWorking封装.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13AFC9220BF899C00CC46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5C3942E90765C4735678E8 /* Pods-AFNetWorking封装.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F13AFC9420BF899C00CC46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetWorking封装.app/AFNetWorking封装";
+			};
+			name = Debug;
+		};
+		F13AFC9520BF899C00CC46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetWorking封装.app/AFNetWorking封装";
+			};
+			name = Release;
+		};
+		F13AFC9720BF899C00CC46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFNetWorking封装";
+			};
+			name = Debug;
+		};
+		F13AFC9820BF899C00CC46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = "AFNetWorking封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.main.AFNetWorking--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFNetWorking封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13AFC5F20BF899A00CC46CA /* Build configuration list for PBXProject "AFNetWorking封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13AFC8E20BF899C00CC46CA /* Debug */,
+				F13AFC8F20BF899C00CC46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13AFC9020BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13AFC9120BF899C00CC46CA /* Debug */,
+				F13AFC9220BF899C00CC46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13AFC9320BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13AFC9420BF899C00CC46CA /* Debug */,
+				F13AFC9520BF899C00CC46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13AFC9620BF899C00CC46CA /* Build configuration list for PBXNativeTarget "AFNetWorking封装UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13AFC9720BF899C00CC46CA /* Debug */,
+				F13AFC9820BF899C00CC46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13AFC5C20BF899A00CC46CA /* Project object */;
+}
