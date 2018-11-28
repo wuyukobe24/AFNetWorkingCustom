@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //master封装
     BaseView * base = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([BaseView class]) owner:self options:nil] firstObject];
     [self.view addSubview:base];
 }
